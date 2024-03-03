@@ -1,15 +1,12 @@
-/* .gnome {
-    height: 20vw;
-    width: 30vw;
-    position: relative;
-    top: 500px;
-    left: 40%;
-} */
-
 /*Always set html and body to zero*/
-html, body {
-    margin: 0;
+* {
+    box-sizing: border-box;
     padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(153, 212, 192);
 }
 
 /*Page name and nav bar on sticky banner*/
@@ -52,4 +49,23 @@ li {
 
 li:hover {
     background-color: rgb(20, 219, 36);
+}
+
+/*User profile image*/
+figure {
+    text-align: center;
+}
+.gnome {
+    position: relative;
+    top: 200px;
+    height: 30vw;
+    width: 30vw;
+}
+
+/*Footer*/
+footer {
+    padding: 20px;
+    clear: both;
+    text-align: center;
+    border-top: 2px solid black;
 }
