@@ -1,5 +1,53 @@
-.gnome {
+/* .gnome {
     height: 20vw;
     width: 30vw;
     position: relative;
+    top: 500px;
+    left: 40%;
+} */
+
+/*Always set html and body to zero*/
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+/*Page name and nav bar on sticky banner*/
+.banner {
+    height: 8%;
+    width: 96vw;
+    margin: 1vw 1vw;
+    padding: 1vw 1vw;
+    position: fixed;
+    top: 0;
+    background: lightgreen;
+    text-align: center;
+}
+
+h1 {
+    display: inline;
+    position: absolute;
+    margin:auto;
+    vertical-align: top;
+}
+
+nav {
+    display: inline;
+    position: relative;
+    left: 65vw;
+    width: auto;
+    height: auto;
+    border: 2px solid black;
+}
+
+ul {
+    display: inline-block;
+    padding: 3px;
+    border: 2px solid black;
+}
+
+li {
+    display: inline-block;
+    padding: 1em;
+    border: 1px solid black;
 }
